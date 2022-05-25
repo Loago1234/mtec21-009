@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Glitch Cinema</title>
+        <style>
+   .menu{
+       margin: 0;
+       padding: 0;
+       text-align: center;
+       position: absolute;
+       top: 15%;
+       left: 50%;
+       transform: translateX(-50%);
+      }
+
+      .menu ul{
+          display: inline-flex;
+          list-style: none;
+      }
+
+      .menu ul li{
+          margin: 25px;
+          position: relative;
+      }
+
+      .menu ul li a{
+          padding: 8px;
+          color: darkblue;
+          font-size: 30px;
+          text-decoration: none;
+          border-bottom: 2px solid #fff;
+          border-radius: 20px;
+          position: relative;
+      }
+
+      .menu ul li a:hover{
+          color: lime;
+      }
+
+      .menu1{
+       margin: 0;
+       padding: 0;
+       text-align: center;
+       position: absolute;
+       top: 25%;
+       left: 50%;
+       transform: translateX(-50%);
+      }
+
+      .menu1 ul{
+          display: inline-flex;
+          list-style: none;
+      }
+
+      .menu1 ul li{
+          margin: 25px;
+          position: relative;
+      }
+
+      .menu1 ul li a{
+          padding: 8px;
+          color: darkblue;
+          font-size: 30px;
+          text-decoration: none;
+          border-bottom: 2px solid #fff;
+          border-radius: 20px;
+          position: relative;
+      }
+
+      .menu1 ul li a:hover{
+          color: lime;
+      }
+
+      .textover{
+                position: relative;
+                padding: 5px;
+            }
+
+            
+            
+            .textover figcaption{
+                position: absolute;
+                bottom: 0;
+                left: 2.2%;
+                box-sizing: border-box;
+                padding: 10px;
+                text-align: center;
+                color: white;
+                background: rgba(0, 0, 0, 0.5);
+            }
+
+            .content{
+          margin: 0;
+          padding: 0;
+          text-align: center;
+          position: absolute;
+          top: 45%;
+          left: 50%;
+          transform: translateX(-50%);
+      }
+
+      .content ul{
+          display: inline-flex;
+          list-style: none;
+      }
+
+      .content ul li{
+          position: relative;
+      }
+
+      .content ul li a{
+          padding: 5px;
+          text-decoration: none;
+          position: relative;
+      }
+
+      .content1{
+          margin: 0;
+          padding: 0;
+          text-align: center;
+          position: absolute;
+          top: 175%;
+          left: 20.7%;
+          transform: translateX(-50%); 
+      }
+
+      .content1 ul{
+          display: inline-flex;
+          list-style: none;
+      }
+
+      .content1 ul li{
+          position: relative;
+      }
+
+      .content1 ul li a{
+          padding: 10px;
+          text-decoration: none;
+          position: relative;
+      }
+
+      .content2{
+          margin: 0;
+          padding: 0;
+          text-align: center;
+          position: absolute;
+          top: 110%;
+          left: 50%;
+          transform: translateX(-50%); 
+      }
+
+      .content2 ul{
+          display: inline-flex;
+          list-style: none;
+      }
+
+      .content2 ul li{
+          position: relative;
+      }
+
+      .content2 ul li a{
+          padding: 10px;
+          text-decoration: none;
+          position: relative;
+      }
+
+      .text{
+          margin: 0;
+          padding: 0;
+          text-align: center;
+          position: absolute;
+          top: 35%;
+          left: 10%;
+          transform: translateX(-50%);
+      }
+
+      .text h1{
+        padding: 8px;
+        color: orange;
+        font-size: 30px;
+        text-decoration: none;
+        border-bottom: 2px solid #fff;
+        border-radius: 20px;
+        position: relative; 
+      }
+
+      .text2{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        position: absolute;
+        top: 245%;
+        left: 10%;
+        transform: translateX(-50%);
+      }
+
+      .text2 li a h1{
+        padding: 8px;
+        color: orange;
+        font-size: 30px;
+        text-decoration: none;
+        border-bottom: 2px solid #fff;
+        border-radius: 20px;
+        position: relative;
+      }
+
+      .text3{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        position: absolute;
+        top: 590%;
+        left: 10%;
+        transform: translateX(-50%);
+      }
+
+      .text3 h1{
+        padding: 8px;
+        color: orange;
+        font-size: 30px;
+        text-decoration: none;
+        border-bottom: 2px solid #fff;
+        border-radius: 20px;
+        position: relative;
+      }
+
+      .content3{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        position: absolute;
+        top: 255%;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+
+      .content3 ul{
+          display: inline-flex;
+          list-style: none;
+      }
+
+      .content3 ul li{
+          position: relative;
+      }
+
+      .content3 ul li a{
+          padding: 10px;
+          text-decoration: none;
+          position: relative;
+      }
+
+      .content4{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        position: absolute;
+        top: 320%;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+
+      .content4 ul{
+          display: inline-flex;
+          list-style: none;
+      }
+
+      .content4 ul li{
+          position: relative;
+      }
+
+      .content4 ul li a{
+          padding: 10px;
+          text-decoration: none;
+          position: relative;
+      }
+
+      .content5{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        position: absolute;
+        top: 385%;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+
+      .content5 ul{
+          display: inline-flex;
+          list-style: none;
+      }
+
+      .content5 ul li{
+          position: relative;
+      }
+
+      .content5 ul li a{
+          padding: 10px;
+          text-decoration: none;
+          position: relative;
+      }
+
+      .content6{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        position: absolute;
+        top: 450%;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+
+      .content6 ul{
+          display: inline-flex;
+          list-style: none;
+      }
+
+      .content6 ul li{
+          position: relative;
+      }
+
+      .content6 ul li a{
+          padding: 10px;
+          text-decoration: none;
+          position: relative;
+      }
+
+      .content7{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        position: absolute;
+        top: 515%;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+
+      .content7 ul{
+          display: inline-flex;
+          list-style: none;
+      }
+
+      .content7 ul li{
+          position: relative;
+      }
+
+      .content7 ul li a{
+          padding: 10px;
+          text-decoration: none;
+          position: relative;
+      }
+
+      .content8{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        position: absolute;
+        top: 600%;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+
+      .content8 ul{
+          display: inline-flex;
+          list-style: none;
+      }
+
+      .content8 ul li{
+          position: relative;
+      }
+
+      .content8 ul li a{
+          padding: 10px;
+          text-decoration: none;
+          position: relative;
+      }
+     
+        </style>
+    </head>
+<body background="5.jpg">
+    <div class="menu">
+        <ul>
+            <li><a href="LG.html">Home</a></li>
+            <li><a href="movies.html">Now Showing</a></li>
+            <li><a href="#">Coming Soon</a></li>
+        </ul>
+    </div>
+
+    <div class="menu1">
+        <ul>
+            <li><a href="kids.html">Kids</a></li>
+            <li><a href="Action.html">Sci-fi</a></li>
+            <li><a href="fantasy.html">Fantasy</a></li>
+            <li><a href="Anime.html">Anime</a></li>
+        </ul>
+    </div>
+
+    <div class="text">
+        <li><a href="Anime.html"><h1>Anime</h1></a></li>
+    </div>
+
+    <div class="content">
+        <ul>
+        <figure class="textover">
+            <li><a href="#"><img src="DBZ-Broly.jpg" width="300" height="400">
+            <figcaption>DragonBall Super Broly</figcaption></a></li>
+        </figure>
+
+        <figure class="textover">
+            <li><a href="#"><img src="demonslayer.jpg" width="300" height="400">
+            <figcaption>Demon Slayer: The Infinity Train</figcaption></a></li>
+        </figure>
+
+        <figure class="textover">
+            <li><a href="#"><img src="Fate_stay night Heaven's Feel].jpg" width="300" height="400">
+            <figcaption>Fate_Stay Night: Heaven's Feel</figcaption></a></li>
+        </figure>
+        </ul>
+    </div>
+
+    <div class="content1">
+    <ul>
+    <figure class="textover">
+        <li><a href="#"><img src="Hunter x Hunter.jpg" width="300" height="400">
+        <figcaption>HunterXHunter</figcaption></a></li>
+    </figure>
+    </ul>
+    </div>
+
+    <div class="content2">
+        <ul>
+            <figure class="textover">
+                <li><a href="#"><img src="Jujutsu kaisen 0.jpg" width="300" height="400">
+                <figcaption>Jujutsu Kaisen 0</figcaption> </a></li>
+            </figure>
+
+            <figure class="textover">
+                <li><a href="#"><img src="Naruto.jpg" width="300" height="400">
+                <figcaption>Naruto The Movie</figcaption> </a></li>
+            </figure>
+
+            <figure class="textover">
+                <li><a href="#"><img src="A silent voice.jpg" width="300" height="400">
+                <figcaption>A Silent Voice</figcaption> </a></li>
+            </figure>
+        </ul>
+    </div>
+
+    <div class="text2">
+        <li><a href="Action.html"><h1>Sci-fi/Action</h1></a></li>
+    </div>
+
+    <div class="content3">
+        <ul>
+            <figure class="textover">
+                <li><a href="#"><img src="Snow White and the Huntsman.jpg" width="300" height="400">
+                <figcaption>Snow White And The Huntsman</figcaption></a></li>
+            </figure>
+
+            <figure class="textover">
+                <li><a href="#"><img src="Extraction.jpg" width="300" height="400">
+                <figcaption>Extraction</figcaption></a></li>
+            </figure>
+
+            <figure class="textover">
+                <li><a href="#"><img src="Dracula Untold - Theatrical Poster Exploration by Ben Hewitt for Universal Pictures.jpg" width="300" height="400">
+                <figcaption>Dracula Untold</figcaption></a></li>
+            </figure>
+        </ul>
+    </div>
+
+    <div class="content4">
+        <ul>
+            <figure class="textover">
+                <li><a href="#"><img src="eternals.jpg" width="300" height="400">
+                <figcaption>Eternals</figcaption></a></li>
+            </figure>
+
+            <figure class="textover">
+                <li><a href="#"><img src="DoctorStranger-MOM.jpg" width="300" height="400">
+                <figcaption>Doctor Strange in the Multiverse of Madness</figcaption></a></li>
+            </figure>
+
+            <figure class="textover">
+                <li><a href="#"><img src="John Wick2.jpg" width="300" height="400">
+                <figcaption>John Wick Chapter 2</figcaption></a></li>
+            </figure>
+        </ul>
+    </div>
+
+    <div class="content5">
+        <ul>
+            <figure class="textover">
+                <li><a href="#"><img src="BlackWidow.jpg" width="300" height="400">
+                <figcaption>Black Widow</figcaption></a></li>
+            </figure>
+
+            <figure class="textover">
+                <li><a href="#"><img src="Avengers_ Infinity War Trailer Teases Global Destruction, New Alliances and Thanos' Rise to Power - E! Online.jpg" width="300" height="400">
+                <figcaption>Avengers Infinity War</figcaption></a></li>
+            </figure>
+
+            <figure class="textover">
+                <li><a href="#"><img src="JohnWick3.jpg" width="300" height="400">
+                <figcaption>John Wick Chapter 3</figcaption></a></li>
+            </figure>
+        </ul>
+    </div>
+
+    <div class="content6">
+        <ul>
+            <figure class="textover">
+                <li><a href="#"><img src="THE NORTHMAN.jpg" width="300" height="400">
+                <figcaption>The Northman</figcaption></a></li>
+            </figure>
+
+            <figure class="textover">
+                <li><a href="#"><img src="BRUDE'S WORLD.jpg" width="300" height="400">
+                <figcaption>Rampage</figcaption></a></li>
+            </figure>
+
+            <figure class="textover">
+                <li><a href="#"><img src="kingsman.png" width="300" height="400">
+                <figcaption>The Kings Man</figcaption></a></li>
+            </figure>
+        </ul>
+    </div>
+
+    <div class="content7">
+        <ul>
+            <figure class="textover">
+                <li><a href="#"><img src="DeadPool2.jpg" width="300" height="400">
+                <figcaption>Dead Pool 2</figcaption></a></li>
+            </figure>
+
+            <figure class="textover">
+                <li><a href="#"><img src="Gemini Man.jpg" width="300" height="400">
+                <figcaption>Gemini Man</figcaption></a></li>
+            </figure>
+
+            <figure class="textover">
+                <li><a href="#"><img src="Thor_ Ragnarok - JoBlo.jpg" width="300" height="400">
+                <figcaption>Thor Ragnarok</figcaption></a></li>
+            </figure>
+        </ul>
+    </div>
+
+    <div class="text3">
+        <h1>Kids</h1>
+    </div>
+
+    <div class="content8">
+        <ul>
+            <figure class="textover">
+                <li><a href="#"><img src="frog.jpg" width="300" height="400">
+                <figcaption>Frog Prince</figcaption></a></li>
+            </figure>
+
+            <figure class="textover">
+                <li><a href="#"><img src="The Lion King.jpg" width="300" height="400">
+                <figcaption>The Lion king</figcaption></a></li>
+            </figure>
+
+            <figure class="textover">
+                <li><a href="#"><img src="Turbo.jpg" width="300" height="400">
+                <figcaption>Turbo</figcaption></a></li>
+            </figure>
+        </ul>
+    </div>
+
+</body>
+</html>
